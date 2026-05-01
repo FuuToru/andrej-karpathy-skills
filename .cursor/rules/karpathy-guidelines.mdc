@@ -65,6 +65,32 @@ For multi-step tasks, state a brief plan:
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
 
+Here is the English version:
+
+---
+
+## 5. Update Documentation on Significant Changes
+
+**Docs must reflect the current system. No drift allowed.**
+
+When changes have meaningful impact:
+
+* If you change logic, APIs, structure, or behavior → update the corresponding docs.
+* If existing docs are no longer accurate → fix or rewrite them. Do not leave incorrect information.
+* Do not defer documentation updates “for later.”
+* If unsure whether docs need updating → state the uncertainty and ask.
+
+Principles:
+
+* Code changes → docs must follow.
+* A new reader should understand the system correctly without reading the code.
+
+Checks:
+
+* Do the docs accurately describe current behavior?
+* Do examples still work as written?
+* Do documented APIs/flows match the implementation?
+
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
